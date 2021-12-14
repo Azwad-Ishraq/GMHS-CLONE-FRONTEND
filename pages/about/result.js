@@ -70,7 +70,7 @@ const result = ({ result }) => {
 export default result;
 
 export async function getStaticProps() {
-    const res = await fetch(`http://localhost:5000/result`)
+    const res = await fetch(`https://gmhsclone.herokuapp.com/result`)
     const resultData = await res.json()
 
     return {

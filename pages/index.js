@@ -82,11 +82,11 @@ const override = `
 export default Index
 
 export async function getStaticProps() {
-  const NoticeRes = await fetch(`http://localhost:5000/notices`)
+  const NoticeRes = await fetch(`https://gmhsclone.herokuapp.com/notices`)
   
   const notices = await NoticeRes.json()
 
-  const NewsRes = await fetch(`http://localhost:5000/news`)
+  const NewsRes = await fetch(`https://gmhsclone.herokuapp.com/news`)
   const newsData = await NewsRes.json()
 
   return { 

@@ -43,7 +43,7 @@ const SingleNotice = ({ notice }) => {
 
 export async function getStaticPaths() {
     // Call an external API endpoint to get posts
-    const res = await fetch(`http://localhost:5000/notices`)
+    const res = await fetch(`https://gmhsclone.herokuapp.com/notices`)
     const notices = await res.json()
 
 
@@ -60,7 +60,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
 
-    const res = await fetch(`http://localhost:5000/notices/${params.id}`)
+    const res = await fetch(`https://gmhsclone.herokuapp.com/notices/${params.id}`)
     const data = await res.json()
 
     return {
