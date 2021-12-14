@@ -1,0 +1,35 @@
+{
+  "name": "nextjs",
+  "version": "5.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.2.0",
+    "@mui/material": "latest",
+    "@mui/styles": "^5.2.3",
+    "aos": "^2.3.4",
+    "clsx": "latest",
+    "next": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-preloaders": "^3.0.3",
+    "react-responsive-carousel": "^3.2.22",
+    "react-simple-image-slider": "^2.3.0",
+    "react-slider-swiper": "^2.0.6",
+    "react-slideshow-image": "^3.6.0",
+    "react-spinners": "^0.11.0",
+    "react-unslider": "^1.0.1",
+    "swiper": "^7.3.1",
+    "typewriter-effect": "^2.18.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  }
+}

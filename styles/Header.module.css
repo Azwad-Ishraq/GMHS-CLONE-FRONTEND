@@ -1,0 +1,11 @@
+.header{
+    background: url('../src//images//headerbg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.452);
+    background-blend-mode: darken,luminosity;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}

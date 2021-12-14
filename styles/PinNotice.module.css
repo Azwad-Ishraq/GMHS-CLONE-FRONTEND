@@ -1,0 +1,9 @@
+.listItem{
+    margin-bottom: 10px!important;
+    background-color: white!important;
+    
+}
+
+.listItem > div:hover{
+    background-color: transparent!important;
+}

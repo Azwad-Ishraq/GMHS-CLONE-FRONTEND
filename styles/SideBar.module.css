@@ -1,0 +1,36 @@
+.appBarBody{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+.nav{
+    background-color: transparent!important;
+    box-shadow: 0px 0px;
+    height: 7vh;
+    backdrop-filter: blur(2px);
+}
+.inputBox{
+    display: flex;
+    align-items: center;
+}
+.inputBox label{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.searchInput{
+    background-color: rgba(211, 211, 211, 0.479);
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 12px;
+}
+.searchInput::placeholder{
+    color: black;
+}
+.searchInput:focus{
+    outline: none;
+}
